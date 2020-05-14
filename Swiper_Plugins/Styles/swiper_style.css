@@ -1,0 +1,60 @@
+*{
+	font-family: 'google sans', 'sans-serif','century gothic','verdana';
+	box-sizing: border-box;
+}
+.swiper_data_container{
+	width: 400px;
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+	padding: 15px;
+	margin-bottom: 10px;
+	transition: 0.25s;
+}
+
+.main_swiper_area .initswiper_img{
+	width: 100%;
+	box-shadow: 2px 3px 4px #eee;
+	border-radius: 13px;
+}
+
+/*Styling the controls area*/
+.main_swiper_area .controls{
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.main_swiper_area .controls div{
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	box-shadow: 2px 3px 4px #eee;
+	border-radius: 13px;
+	cursor: pointer;
+	flex:1;
+}
+
+/*Here we are centering the main container*/
+.main_swiper_area{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/*Credit*/
+.credit{
+	color: red;
+	padding: 15px;
+	border-radius: 13px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	transform: translate(-50%,-50%) rotate(-90deg);
+}
